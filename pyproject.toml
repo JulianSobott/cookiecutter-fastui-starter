@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "FastUI Starter"
+version = "0.1.0"
+description = "Template for setting up a FastUI app with custom components"
+authors = ["JulianSobott <julian.sobott@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^8.0.1"
+cookiecutter = "^2.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

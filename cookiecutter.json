@@ -1,0 +1,16 @@
+{
+  "project_name": "FastUI Starter",
+  "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+  "frontend_folder_name": "{{ cookiecutter.project_slug }}_app",
+  "description": "FastUI starter with custom components",
+  "author_name": "Your Name",
+  "author_email": "Email",
+  "version": "0.1.0",
+  "open_source_license": [
+    "MIT",
+    "BSD",
+    "GPLv3",
+    "Apache Software License 2.0",
+    "Not open source"
+  ]
+}
